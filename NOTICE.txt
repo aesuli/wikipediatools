@@ -1,0 +1,4 @@
+The wikipediadump_download script is a modified version of the
+script developed by the WikiTeam, distributed under GPL 3.
+The wikipediatotext script needs the wikipedia-extractor script, available at:
+https://github.com/aesuli/wikipedia-extractor
