@@ -3,5 +3,5 @@ Wikipedia tools
 ===============
 
 Set of tools to process wikipedia dumps:
- - adaptation of the WikiTeam download tool to download the latest dumps.
- - wrapper to convert them to simple text using Attardi's TANL script.
+ - port to python 3.4 and improvement of the [WikiTeam download tool](https://github.com/WikiTeam/wikiteam) to download the latest dumps.
+ - wrapper to convert them to plain text using [Attardi's TANL script](https://github.com/aesuli/wikipedia-extractor). 
