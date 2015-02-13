@@ -54,7 +54,7 @@ def main():
         for line in langfile:
             fields = line.strip().split('\t')
             langdict[fields[1]] = fields[0]
-    missinglangs = list(langdict.keys())
+    missinglangs = {}
 
     basepath = args.out
 
@@ -80,6 +80,8 @@ def main():
 
     for key in sorted(langdict.keys()):
 
+        missinglangs[key] = ['no file found']
+
         print(langdict[key], ' ', key,flush=True)
         try:
             with urllib.request.urlopen('%s/%swiki/latest/' % (dumpsdomain, key),timeout=timeout) as f:
@@ -102,6 +104,8 @@ def main():
                     '%s/%swiki/latest/%s' % (dumpsdomain, key, i.group('urldump')))
 
             urldumps = list(set(urldumps))
+
+            missinglangs[key] = urldumps
 
             for urldump in sorted(urldumps):
                 dumpfilename = urldump.split('/')[-1]
@@ -174,7 +178,7 @@ def main():
                                 if md51 == md52:
                                     print('%s tested OK (md5)' % key)
                                     corrupted = False
-                                    missinglangs.remove(key)
+                                    missinglangs[key.remove(urldump)]
                                 else:
                                     print('%s wrong md5' % key)
                                     os.remove(fulldumpfilename)
@@ -200,17 +204,18 @@ def main():
                                     pass
                                 corrupted = False
 
-                            if key in missinglangs and not corrupted:
-                                missinglangs.remove(key)
+                            if not corrupted and urldump in missinglangs[key]:
+                                missinglangs[key].remove(urldump)
                         else:
                             os.remove(fulldumpfilename)
                 else:
                     print('Already downloaded.')
-                    missinglangs.remove(key)
+                    missinglangs[key].remove(urldump)
 
     with open(args.lang + ".download_missing.txt", mode='w', encoding='utf8') as missingfile:
         for l in missinglangs:
-            print('%s\t%s' % (langdict[l], l), file=missingfile)
+            for u in missinglangs[l]:
+                print('%s\t%s\t%s' % (langdict[l], l, u), file=missingfile)
 
 
 if __name__ == '__main__':
