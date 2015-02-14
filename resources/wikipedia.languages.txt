@@ -1,0 +1,288 @@
+Qafár af (Afar)	aa
+Аҧсшәа (Abkhazian)	ab
+Acèh (Achinese)	ace
+Afrikaans (Afrikaans)	af
+Akan (Akan)	ak
+Alemannisch (Alemannisch)	als
+አማርኛ (Amharic)	am
+aragonés (Aragonese)	an
+Ænglisc (Old English)	ang
+العربية (Arabic)	ar
+ܐܪܡܝܐ (Aramaic)	arc
+مصرى (Egyptian Spoken Arabic)	arz
+অসমীয়া (Assamese)	as
+asturianu (Asturian)	ast
+авар (Avaric)	av
+Aymar aru (Aymara)	ay
+azərbaycanca (Azerbaijani)	az
+башҡортса (Bashkir)	ba
+Boarisch (Bavarian)	bar
+žemaitėška (Samogitian)	bat-smg
+Bikol Central (Bikol Central)	bcl
+беларуская (Belarusian)	be
+беларуская (тарашкевіца)‎ (беларуская (тарашкевіца)‎)	be-x-old
+български (Bulgarian)	bg
+भोजपुरी (भोजपुरी)	bh
+Bislama (Bislama)	bi
+Bahasa Banjar (Banjar)	bjn
+bamanankan (Bambara)	bm
+বাংলা (Bengali)	bn
+བོད་ཡིག (Tibetan)	bo
+বিষ্ণুপ্রিয়া মণিপুরী (Bishnupuriya Manipuri)	bpy
+brezhoneg (Breton)	br
+bosanski (Bosnian)	bs
+ᨅᨔ ᨕᨘᨁᨗ (Buginese)	bug
+буряад (буряад)	bxr
+català (Catalan)	ca
+Chavacano de Zamboanga (Chavacano de Zamboanga)	cbk-zam
+Mìng-dĕ̤ng-ngṳ̄ (Min Dong Chinese)	cdo
+нохчийн (Chechen)	ce
+Cebuano (Cebuano)	ceb
+Chamoru (Chamorro)	ch
+Choctaw (Choctaw)	cho
+ᏣᎳᎩ (Cherokee)	chr
+Tsetsêhestâhese (Cheyenne)	chy
+کوردی (Sorani Kurdish)	ckb
+corsu (Corsican)	co
+Nēhiyawēwin / ᓀᐦᐃᔭᐍᐏᐣ (Cree)	cr
+qırımtatarca (Crimean Turkish)	crh
+čeština (Czech)	cs
+kaszëbsczi (Kashubian)	csb
+словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ (Church Slavic)	cu
+Чӑвашла (Chuvash)	cv
+Cymraeg (Welsh)	cy
+dansk (Danish)	da
+Deutsch (German)	de
+Zazaki (Zazaki)	diq
+dolnoserbski (Lower Sorbian)	dsb
+ދިވެހިބަސް (Divehi)	dv
+ཇོང་ཁ (Dzongkha)	dz
+eʋegbe (Ewe)	ee
+Ελληνικά (Greek)	el
+emiliàn e rumagnòl (Emiliano-Romagnolo)	eml
+English (English)	en
+Esperanto (Esperanto)	eo
+español (Spanish)	es
+eesti (Estonian)	et
+euskara (Basque)	eu
+estremeñu (Extremaduran)	ext
+فارسی (Persian)	fa
+Fulfulde (Fulah)	ff
+suomi (Finnish)	fi
+Võro (Võro)	fiu-vro
+Na Vosa Vakaviti (Fijian)	fj
+føroyskt (Faroese)	fo
+français (French)	fr
+arpetan (Franco-Provençal)	frp
+Nordfriisk (Northern Frisian)	frr
+furlan (Friulian)	fur
+Frysk (Western Frisian)	fy
+Gaeilge (Irish)	ga
+Gagauz (Gagauz)	gag
+贛語 (Gan)	gan
+Gàidhlig (Scottish Gaelic)	gd
+galego (Galician)	gl
+گیلکی (Gilaki)	glk
+Avañe'ẽ (Guarani)	gn
+𐌲𐌿𐍄𐌹𐍃𐌺 (Gothic)	got
+ગુજરાતી (Gujarati)	gu
+Gaelg (Manx)	gv
+Hausa (Hausa)	ha
+客家語/Hak-kâ-ngî (Hakka)	hak
+Hawai`i (Hawaiian)	haw
+עברית (Hebrew)	he
+हिन्दी (Hindi)	hi
+Fiji Hindi (Fiji Hindi)	hif
+Hiri Motu (Hiri Motu)	ho
+hrvatski (Croatian)	hr
+hornjoserbsce (Upper Sorbian)	hsb
+Kreyòl ayisyen (Haitian)	ht
+magyar (Hungarian)	hu
+Հայերեն (Armenian)	hy
+Otsiherero (Herero)	hz
+interlingua (Interlingua)	ia
+Bahasa Indonesia (Indonesian)	id
+Interlingue (Interlingue)	ie
+Igbo (Igbo)	ig
+ꆇꉙ (Sichuan Yi)	ii
+Iñupiak (Inupiaq)	ik
+Ilokano (Iloko)	ilo
+Ido (Ido)	io
+íslenska (Icelandic)	is
+italiano (Italian)	it
+ᐃᓄᒃᑎᑐᑦ/inuktitut (Inuktitut)	iu
+日本語 (Japanese)	ja
+Lojban (Lojban)	jbo
+Basa Jawa (Javanese)	jv
+ქართული (Georgian)	ka
+Qaraqalpaqsha (Kara-Kalpak)	kaa
+Taqbaylit (Kabyle)	kab
+Адыгэбзэ (Kabardian)	kbd
+Kongo (Kongo)	kg
+Gĩkũyũ (Kikuyu)	ki
+Kwanyama (Kuanyama)	kj
+қазақша (Kazakh)	kk
+kalaallisut (Kalaallisut)	kl
+ភាសាខ្មែរ (Khmer)	km
+ಕನ್ನಡ (Kannada)	kn
+한국어 (Korean)	ko
+Перем Коми (Komi-Permyak)	koi
+Kanuri (Kanuri)	kr
+къарачай-малкъар (Karachay-Balkar)	krc
+कॉशुर / کٲشُر (Kashmiri)	ks
+Ripoarisch (Colognian)	ksh
+Kurdî (Kurdish)	ku
+коми (Komi)	kv
+kernowek (Cornish)	kw
+Кыргызча (Kyrgyz)	ky
+Latina (Latin)	la
+Ladino (Ladino)	lad
+Lëtzebuergesch (Luxembourgish)	lb
+лакку (лакку)	lbe
+лезги (Lezghian)	lez
+Luganda (Ganda)	lg
+Limburgs (Limburgish)	li
+Ligure (Ligurian)	lij
+lumbaart (Lombard)	lmo
+lingála (Lingala)	ln
+ລາວ (Lao)	lo
+lietuvių (Lithuanian)	lt
+latgaļu (Latgalian)	ltg
+latviešu (Latvian)	lv
+मैथिली (Maithili)	mai
+Basa Banyumasan (Basa Banyumasan)	map-bms
+мокшень (Moksha)	mdf
+Malagasy (Malagasy)	mg
+Ebon (Marshallese)	mh
+олык марий (Eastern Mari)	mhr
+Māori (Maori)	mi
+Baso Minangkabau (Minangkabau)	min
+македонски (Macedonian)	mk
+മലയാളം (Malayalam)	ml
+монгол (Mongolian)	mn
+молдовеняскэ (молдовеняскэ)	mo
+मराठी (Marathi)	mr
+кырык мары (Hill Mari)	mrj
+Bahasa Melayu (Malay)	ms
+Malti (Maltese)	mt
+Mvskoke (Creek)	mus
+Mirandés (Mirandese)	mwl
+မြန်မာဘာသာ (Burmese)	my
+эрзянь (Erzya)	myv
+مازِرونی (Mazanderani)	mzn
+Dorerin Naoero (Nauru)	na
+Nāhuatl (Nāhuatl)	nah
+Napulitano (Neapolitan)	nap
+Plattdüütsch (Low German)	nds
+Nedersaksies (Low Saxon (Netherlands))	nds-nl
+नेपाली (Nepali)	ne
+नेपाल भाषा (Newari)	new
+Oshiwambo (Ndonga)	ng
+Nederlands (Dutch)	nl
+norsk nynorsk (Norwegian Nynorsk)	nn
+norsk bokmål (Norwegian (bokmål))	no
+Novial (Novial)	nov
+Nouormand (Nouormand)	nrm
+Sesotho sa Leboa (Northern Sotho)	nso
+Diné bizaad (Navajo)	nv
+Chi-Chewa (Nyanja)	ny
+occitan (Occitan)	oc
+Oromoo (Oromo)	om
+ଓଡ଼ିଆ (Oriya)	or
+Ирон (Ossetic)	os
+ਪੰਜਾਬੀ (Punjabi)	pa
+Pangasinan (Pangasinan)	pag
+Kapampangan (Pampanga)	pam
+Papiamentu (Papiamento)	pap
+Picard (Picard)	pcd
+Deitsch (Pennsylvania German)	pdc
+Pälzisch (Palatine German)	pfl
+पालि (Pali)	pi
+Norfuk / Pitkern (Norfuk / Pitkern)	pih
+polski (Polish)	pl
+Piemontèis (Piedmontese)	pms
+پنجابی (Western Punjabi)	pnb
+Ποντιακά (Pontic)	pnt
+پښتو (Pashto)	ps
+português (Portuguese)	pt
+Runa Simi (Quechua)	qu
+rumantsch (Romansh)	rm
+Romani (Romani)	rmy
+Kirundi (Rundi)	rn
+română (Romanian)	ro
+armãneashti (Aromanian)	roa-rup
+tarandíne (tarandíne)	roa-tara
+русский (Russian)	ru
+русиньскый (Rusyn)	rue
+Kinyarwanda (Kinyarwanda)	rw
+संस्कृतम् (Sanskrit)	sa
+саха тыла (Sakha)	sah
+sardu (Sardinian)	sc
+sicilianu (Sicilian)	scn
+Scots (Scots)	sco
+سنڌي (Sindhi)	sd
+sámegiella (Northern Sami)	se
+Sängö (Sango)	sg
+srpskohrvatski / српскохрватски (Serbo-Croatian)	sh
+සිංහල (Sinhala)	si
+Simple English (Simple English)	simple
+slovenčina (Slovak)	sk
+slovenščina (Slovenian)	sl
+Gagana Samoa (Samoan)	sm
+chiShona (Shona)	sn
+Soomaaliga (Somali)	so
+shqip (Albanian)	sq
+српски / srpski (Serbian)	sr
+Sranantongo (Sranan Tongo)	srn
+SiSwati (Swati)	ss
+Sesotho (Southern Sotho)	st
+Seeltersk (Saterland Frisian)	stq
+Basa Sunda (Sundanese)	su
+svenska (Swedish)	sv
+Kiswahili (Swahili)	sw
+ślůnski (Silesian)	szl
+தமிழ் (Tamil)	ta
+తెలుగు (Telugu)	te
+tetun (Tetum)	tet
+тоҷикӣ (Tajik)	tg
+ไทย (Thai)	th
+ትግርኛ (Tigrinya)	ti
+Türkmençe (Turkmen)	tk
+Tagalog (Tagalog)	tl
+Setswana (Tswana)	tn
+lea faka-Tonga (Tongan)	to
+Tok Pisin (Tok Pisin)	tpi
+Türkçe (Turkish)	tr
+Xitsonga (Tsonga)	ts
+татарча/tatarça (Tatar)	tt
+chiTumbuka (Tumbuka)	tum
+Twi (Twi)	tw
+reo tahiti (Tahitian)	ty
+тыва дыл (Tuvinian)	tyv
+удмурт (Udmurt)	udm
+ئۇيغۇرچە / Uyghurche (Uyghur)	ug
+українська (Ukrainian)	uk
+اردو (Urdu)	ur
+oʻzbekcha (Uzbek)	uz
+Tshivenda (Venda)	ve
+vèneto (Venetian)	vec
+vepsän kel’ (Veps)	vep
+Tiếng Việt (Vietnamese)	vi
+West-Vlams (West Flemish)	vls
+Volapük (Volapük)	vo
+walon (Walloon)	wa
+Winaray (Waray)	war
+Wolof (Wolof)	wo
+吴语 (Wu)	wuu
+хальмг (Kalmyk)	xal
+isiXhosa (Xhosa)	xh
+მარგალური (Mingrelian)	xmf
+ייִדיש (Yiddish)	yi
+Yorùbá (Yoruba)	yo
+Vahcuengh (Zhuang)	za
+Zeêuws (Zeeuws)	zea
+中文 (Chinese)	zh
+文言 (Classical Chinese)	zh-classical
+Bân-lâm-gú (Chinese (Min Nan))	zh-min-nan
+粵語 (Cantonese)	zh-yue
+isiZulu (Zulu)	zu
