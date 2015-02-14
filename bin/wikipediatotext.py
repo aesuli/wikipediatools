@@ -31,6 +31,7 @@ import bz2
 
 dryrun = False
 
+
 def main():
     sys.stdout = codecs.getwriter('utf8')(sys.stdout.buffer)
     parser = argparse.ArgumentParser('Bulk converter of wikipedia dumps to text')
@@ -45,35 +46,37 @@ def main():
     args = parser.parse_args()
     global dryrun
     dryrun = args.dryrun
-    langdict = {}
-    if hasattr(args, 'lang'):
+    if args.lang:
+        langdict = {}
         with open(args.lang, encoding='utf8') as langfile:
             for line in langfile:
                 fields = line.strip().split('\t')
-                print(fields[1])
                 langdict[fields[1]] = (fields[0], False)
+    else:
+        langdict = None
     sys.stdout.flush()
-    filedict = processpath(args.input, langdict)
+    filedict = processpath(args.input, None, langdict)
     converttotext(filedict, args.output)
-    with open(args.lang + ".totext_missing.txt", mode='w', encoding='utf8') as missingfile:
-        for key, value in sorted(langdict.items()):
-            if value[1] is False:
-                print('%s\t%s' % (value[0], key))
-                print('%s\t%s' % (value[0], key), file=missingfile)
+    if not langdict is None:
+        with open(args.lang + ".totext_missing.txt", mode='w', encoding='utf8') as missingfile:
+            for key, value in sorted(langdict.items()):
+                if value[1] is False:
+                    print('%s\t%s' % (value[0], key))
+                    print('%s\t%s' % (value[0], key), file=missingfile)
 
 
-def processpath(path, langdict, filedict=None):
+def processpath(path, filedict=None, langdict=None):
     if filedict is None:
         filedict = {}
     if os.path.isfile(path):
-        processfile(path, langdict, filedict)
+        processfile(path, filedict, langdict)
     elif os.path.isdir(path):
         for subpath in glob.glob(path + os.sep + '*'):
-            processpath(subpath, langdict, filedict)
+            processpath(subpath, filedict, langdict)
     return filedict
 
 
-def processfile(filename, langdict, filedict):
+def processfile(filename, filedict, langdict=None):
     resep = '/'
     if os.sep == '\\':
         resep = r'\\'
@@ -81,9 +84,11 @@ def processfile(filename, langdict, filedict):
     if len(found) == 1:
         wiki = found[0][1]
         filepref = found[0][0]
-        if not wiki in langdict:
-            return
-        langdict[wiki] = (langdict[wiki][0], True)
+        if not langdict is None:
+            if not wiki in langdict:
+                return
+            else:
+                langdict[wiki] = (langdict[wiki][0], True)
         list = filedict.get(wiki, [])
         list.append([filename, filepref])
         filedict[wiki] = list
@@ -92,7 +97,7 @@ def processfile(filename, langdict, filedict):
 def pump(filename, pipe):
     """Decompress *filename* and write it to *pipe*."""
     with closing(pipe), bz2.BZ2File(filename) as input_file:
-         shutil.copyfileobj(input_file, pipe)
+        shutil.copyfileobj(input_file, pipe)
 
 
 def converttotext(filedict, out):
@@ -114,11 +119,14 @@ def converttotext(filedict, out):
                         break
                 if go:
                     shutil.rmtree(path + '.tmp', ignore_errors=True)
+                    print('Processing %s % s' % (wiki, filename))
 
-                    p = subprocess.Popen(['python', 'WikiExtractor.py', '-o', path + ".tmp"], stdin=subprocess.PIPE, stdout=sys.stdout, bufsize=-1)
+                    p = subprocess.Popen(['python', 'WikiExtractor.py', '-o', path + ".tmp"], stdin=subprocess.PIPE,
+                                         stdout=sys.stdout, bufsize=-1)
                     threading.Thread(target=pump, args=[filename, p.stdin]).start()
                     p.wait()
                     shutil.move(path + ".tmp", path)
+                    print('Done %s % s' % (wiki, filename))
                 else:
                     print('skipping %s' % wiki)
 
