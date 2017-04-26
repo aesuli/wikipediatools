@@ -195,7 +195,7 @@ def main():
 
                             with closing(urllib.request.urlopen(
                                             '%s/%swiki/latest/%swiki-latest-md5sums.txt' % (
-                                            dumpsdomain, key, key)), timeout=timeout) as f:
+                                            dumpsdomain, key, key), timeout=timeout)) as f:
                                 raw = f.read().decode()
 
                             f = open('%s/%s-latest-md5sums.txt' %
@@ -211,7 +211,7 @@ def main():
                             if md51 == md52:
                                 print('%s tested OK (md5)' % key)
                                 corrupted = False
-                                missinglangs[key.remove(urldump)]
+                                shutil.move(fulldumpfilename + ".tmp", fulldumpfilename)
                             else:
                                 print('%s wrong md5' % key)
                                 try:
